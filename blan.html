@@ -1,0 +1,76 @@
+<!Doctype html>
+<head>
+    <h1>Authentification page</h1>
+
+<style>
+    input{
+        color : rgb(0, 255, 204);
+        border-radius : 50px;
+        border-color: black;
+    
+    
+    }
+   
+
+    body {
+        background-color: aquamarine;
+    }
+
+
+    h1 {
+  color: #072334;         /* Change text color */
+  font-size: 48px;        /* Change font size */
+  font-family: "Brush Script MT", cursive; /* Change font family */
+  text-align: center;     /* Center the text */
+}
+
+
+
+
+h2{
+    color: #000406;         /* Change text color */
+  font-size: 48px;        /* Change font size */
+  font-family: "Brush Script MT", cursive; /* Change font family */
+  text-align: center;     /* Center the text */
+
+
+
+  }
+body {
+    background-image: url("DALL·E 2025-02-21 17.17.55 - A person sitting at a desktop computer in a dark room, illuminated by the screen's soft glow. The scene has a moody, cyberpunk aesthetic with a contra.webp"
+); /* Image path */
+    background-size: cover; /* Covers the entire page */
+    background-repeat: no-repeat; /* Prevents repeating */
+    background-position: center; /* Centers the image */
+}
+@media (prefers-color-scheme : dark){
+    body{ 
+    background-color: black ;
+    print-color-adjust: white;
+    }}
+</style>
+<script>
+  let expectednaame= "Mohamed";
+  let inputname = document.getElementById("Username").value;
+  console.log(inputname);
+
+  let inputpwd = document.getElementById("Password").value;
+  console.log(inputpwd); 
+
+</script>
+</head>
+
+<body>
+<center>  
+<h2>Username</h2>
+<input  id = "Username " text ="Username">
+<h2>Password </h2>
+<input  id = "Password " text ="Username">
+<br/>
+<br/>
+<a href="https://www.google.com">Forgot The Password</a>
+
+</center>
+
+
+</body>
